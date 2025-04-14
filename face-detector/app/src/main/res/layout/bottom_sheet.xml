@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="74dp"
+    android:background="@android:color/white"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet_button"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="48dp">
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_photo_camera_24"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:id="@+id/bottom_sheet_image"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+  android:background="#000"
+        android:layout_gravity="center"
+    android:id="@+id/bottom_sheet_progressbar"/>
+    </FrameLayout>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_sheet_recyclerView"/>
+
+</LinearLayout>
