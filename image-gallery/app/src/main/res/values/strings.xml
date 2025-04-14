@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageGallery</string>
+    <string name="nav_open">navOpen</string>
+    <string name="nav_close">navClose</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

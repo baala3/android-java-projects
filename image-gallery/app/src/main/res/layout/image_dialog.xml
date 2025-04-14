@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/image_title_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="image name"
+        android:textSize="16sp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_below="@id/image_title_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:id="@+id/image_dialog"
+        android:src="@drawable/atg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:text="View Image"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_full"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="close"
+            android:layout_margin="2dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_close"/>
+    </LinearLayout>
+</LinearLayout>
