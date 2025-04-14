@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/imgphoto"
+      android:src="@drawable/bala"
+      android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtname"
+        android:layout_height="wrap_content"
+        android:text="Name of the Developer"
+        android:layout_below="@+id/imgphoto"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bala Shekhar"
+        android:layout_below="@+id/txtname"
+        android:textAlignment="center"
+        android:id="@+id/txtbala"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbala"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/rrr"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6303395354"
+            android:id="@+id/txtpno"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:textColor="#fff"
+            android:paddingLeft="125dp"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kamandlabalashekhar@gmail.com"
+            android:layout_below="@+id/txtpno"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_mail"
+            android:paddingLeft="45dp"
+
+            />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/funny"
+            android:layout_below="@+id/rrr"
+            android:layout_margin="20dp"
+            android:id="@+id/meme"
+            />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

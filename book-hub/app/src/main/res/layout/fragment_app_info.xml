@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AppInfo">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0E8B7"
+        android:id="@+id/fff"
+        app:cardBackgroundColor="#F8E1C2"
+        app:cardCornerRadius="4dp"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="This book app was developed by kamandla balashekhar.This app uses kotlin to build functionality.The concepts covered by this app constitutes of :\nLayout using Xml,\nKotlin basics,\nActivity Lifecycle,\nIntents and Fragments and their lifecycle,\nLists using RecyclerView,\nConnecting app to the Internet,\nGET and POST requests using Volley Library and \nretreving data in SQL using Room in Android\n\ndoing all these things once alone is not enough.Inorder to have a goood understanding,you need to continuously practicing all theses by building simple apps.Apart from this there is huge world of android where there is a lot more to explore.We hope this app would be Useful
+            \n\n happy coding:)"
+        android:layout_margin="30dp"
+        android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
