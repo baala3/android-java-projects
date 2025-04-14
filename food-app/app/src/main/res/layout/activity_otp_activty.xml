@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OtpActivty"
+    android:background="#EC3224">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:id="@+id/txtotptitle"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtotptitle"
+        android:layout_height="wrap_content"
+        android:hint="OTP (4 characters)"
+        android:maxLength="4"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtotptop"
+        android:layout_marginLeft="25dp"
+        android:inputType="number"
+        android:layout_marginRight="25dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password(Min 4 characters)"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtotpnewpassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:maxLength="10"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtotptop"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:background="#fff"
+        android:padding="10dp"
+        android:maxLength="10"
+        android:textSize="20sp"
+        android:id="@+id/txtotpconfirmpassword"
+        android:layout_marginTop="15dp" android:inputType="textPassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtotpnewpassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#DEF042"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/btnotpsubmit"
+        android:layout_below="@id/txtotpconfirmpassword"
+        android:textSize="25sp"/>
+
+
+
+</RelativeLayout>

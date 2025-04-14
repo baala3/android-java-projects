@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.foodapp.Fragment.FavoriteFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/fragrecylerview"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aagam"
+
+       >
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:id="@+id/nofavv"
+            android:src="@drawable/nofav"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Favorites yet"
+            android:textSize="20dp"
+            android:id="@+id/nooo"
+            android:layout_below="@+id/nofavv"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

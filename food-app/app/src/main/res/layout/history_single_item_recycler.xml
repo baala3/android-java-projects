@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:id="@+id/lll"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/restaname"
+            android:layout_weight="5.5"
+            android:layout_height="wrap_content"
+            android:text="restaurant name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/date"
+            android:layout_weight="4.5"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/innerrecycle"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/lll"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/innerrecycle"
+        android:background="@color/colorPrimaryDark"/>
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.foodapp.Fragment.FaqsFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Q.1 What exactly is Food Runner app"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginRight="15dp"
+      android:textColor="#FC0101"
+      android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:text="Food Runner App is the mobile application with a sole objective of empowering small businesses, local food outlets and other businesses with a tool that enables them to reach customers within a few taps on the screen. Developed by balashekhar, this mobile application helps you combat the terror of e-commerce giants that are becoming more and more gigantic. With the help of this app, the restaurant owners can market their menu online and also manage everything, from buying process to tracking payments- on their smartphones/ devices."/>
+       <View
+           android:layout_width="wrap_content"
+           android:layout_height="3dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2 Can the restaurant app builder setup the menu for me?"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#FC0101"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+android:text="Yes, initially our app developer will setup the complete menu as per your requirements. However, later you will have access to add, edit and delete items as per your requirements"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.3 How much time will it take to build the on-demand food delivery app and run?"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#FC0101"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+android:text="After understanding your perspective, we strive to build the app in the least possible time. Many factors contribute in launching a successful app. However generally it takes approximately 10-15 working days."
+  />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.4 Is there any limit for order menu?"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#FC0101"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+android:text="Although, there is no pre-set limit in the order menu but we can make it functional as per your custom request."            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.5 Do coupons and loyalty works via app?"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#FC0101"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+android:text="Yes, coupons, discounts, offers and loyalty programs can be updated in the app for the customers to avail them."/>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

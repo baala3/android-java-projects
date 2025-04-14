@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activity.RegistorActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Registor Yourself"
+        android:background="@color/colorPrimaryDark"
+        app:titleTextColor="#fff"
+        android:id="@+id/txtregtoolbar"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name(Min 3 characters"
+        android:maxLength="15"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_below="@+id/txtregtoolbar"
+        android:textSize="20sp"
+        android:id="@+id/txtregname"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableLeft="@drawable/ic_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:background="#fff"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtregemailaddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@id/txtregname"
+        android:drawableLeft="@drawable/ic_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number(10 digits)"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtregmobile"
+        android:maxLength="10"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:inputType="number"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtregemailaddress"
+        android:drawableLeft="@drawable/ic_phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Delivery Address"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtregaddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtregmobile"
+        android:drawableLeft="@drawable/ic_address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password(Min 4 characters)"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtregpassword"
+        android:maxLength="10"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtregaddress"
+        android:drawableLeft="@drawable/ic_password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:hint="Confirm Password"
+        android:background="#fff"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtregconfpassword"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/txtregpassword"
+        android:drawableLeft="@drawable/ic_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#DEF042"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/btnlogin"
+        android:layout_below="@id/txtregconfpassword"
+        android:textSize="25sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/regprogress"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/progressring"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
