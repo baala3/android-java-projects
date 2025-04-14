@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="enter_text">enter text</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="trivia">trivia</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="flase">Flase</string>
+    <string name="ture">Ture</string>
+    <string name="txtquestionno">TextView</string>
+</resources>
