@@ -33,8 +33,11 @@ It is a beginner-level project that focuses on practicing:
 - **Minimum SDK**: 21 (Android 5.0 Lollipop)
 - **Target SDK**: 33 (Android 13)
 
+---
 ## play URL
+
 https://appetize.io/app/b_eypbombahkypvk42ulhqsmst7y
+
 ---
 
 > 💡 This app is part of a beginner Android learning series. It's not connected to any API or backend yet, but it's structured to allow future enhancements like data from a real server or Firebase.
