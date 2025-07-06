@@ -18,7 +18,7 @@
 
 ## 🛠 Tech Stack
 
-- **Language**: Kotlin
+- **Language**: Java
 - **Camera API**: [`CameraX`](https://developer.android.com/training/camerax) for preview and image capture
 - **ML Library**: [`Google ML Kit`](https://developers.google.com/ml-kit/vision/face-detection/android)
   - Face Detection with landmark tracking and contour detection
