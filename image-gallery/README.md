@@ -2,9 +2,7 @@
 
 ## 📌 What is this project?
 
-**Image Gallery** is a basic Android app that displays a grid-based collection of images. The app simulates a simple gallery where users can browse images and tap to view them in full screen. It's designed as a beginner project to practice working with `RecyclerView`, `GridLayoutManager`, `Intent`, and dynamic layouts in Kotlin.
-
-This project helps reinforce concepts like handling images in Android, creating responsive grid UIs, and navigating between screens with data.
+**Image Gallery** is a basic Android app that displays a grid-based collection of images. The app simulates a simple gallery where users can browse images and tap to view them in full screen. It's a beginner project to practice working with `RecyclerView`, `GridLayoutManager`, `Intent`, and dynamic layouts in Java.
 
 ---
 
@@ -20,7 +18,7 @@ This project helps reinforce concepts like handling images in Android, creating 
 
 ## 🛠 Tech Stack
 
-- **Language**: Kotlin
+- **Language**: Java
 - **UI Components**:
   - `RecyclerView` with `GridLayoutManager` for image grid
   - `CardView` and `ImageView` for item presentation

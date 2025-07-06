@@ -4,7 +4,7 @@
 
 **Food App** is a basic Android application that displays a list of food items along with their details such as name, price, description, and image. It’s a beginner-friendly project created to practice list views, layout design using Kotlin.
 
-This project simulates a simple food menu or catalog screen and helps build foundational Android concepts like `RecyclerView`, `Intent`, and working with static data models.
+This project demo's a simple food menu or catalog screen and helps build foundational Android concepts like `RecyclerView`, `Intent`, and working with static data models.
 
 ---
 

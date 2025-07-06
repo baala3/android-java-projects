@@ -4,8 +4,6 @@
 
 **Corona Tracker** is an Android application that displays COVID-19 case statistics per country. The app fetches real-time data from a public API and presents it in a clean, scrollable list. It was built to practice integrating RESTful APIs in Android apps using **Retrofit** and **RecyclerView**, along with applying basic MVVM principles for better code organization.
 
-This project is part of a hands-on learning journey in Android development with Java and focuses on networking and UI presentation.
-
 ---
 
 ## ✨ Features

@@ -2,7 +2,7 @@
 
 ## 📌 What is this project?
 
-**Trivia App** is a lightweight Android application that presents users with a multiple-choice quiz. It demonstrates core Android development concepts such as activity navigation, view binding, event listeners, and UI state management using Java.
+**Trivia App** is a lightweight Android application that presents users with a multiple-choice quiz. It show core Android development concepts such as activity navigation, view binding, event listeners, and UI state management using Java.
 
 This project is focused on learning how to build an interactive form-like experience by dynamically responding to user input, validating answers, and giving feedback — all within a multi-screen Android flow.
 

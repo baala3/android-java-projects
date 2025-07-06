@@ -2,9 +2,9 @@
 
 ## 📌 What is this project?
 
-**My Notes** is a simple note-taking Android app that allows users to create, view, and delete short text notes. It uses an in-memory data structure to simulate note persistence and is designed as a stepping stone toward more advanced local data storage solutions like Room or SQLite.
+**My Notes** is a simple note-taking Android app that allows users to create, view, and delete short text notes. It uses an in-memory data structure to simulate note persistence.
 
-This project focuses on mastering fundamental concepts in Android like `RecyclerView`, `ViewModel`, `Intent`, and user input handling, using Java and basic MVVM principles.
+This project focuses on fundamental concepts in Android like `RecyclerView`, `ViewModel`, `Intent`, and user input handling, using Java and basic MVVM principles.
 
 ---
 

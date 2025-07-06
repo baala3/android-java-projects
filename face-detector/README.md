@@ -2,9 +2,7 @@
 
 ## 📌 What is this project?
 
-**Face Detector** is an Android application that uses machine learning to detect human faces in real-time using the device's camera. It leverages **Google ML Kit's Face Detection API** to identify facial features and draw overlays for visual feedback.
-
-This app was developed as a learning project to explore how to integrate on-device ML capabilities into Android apps with **CameraX** and **ML Kit**, while maintaining responsive UI performance.
+**Face Detector** is an Android application that uses machine learning to detect human faces in real-time using the device's camera. It uses **Google ML Kit's Face Detection API** to identify facial features and draw overlays for visual feedback.
 
 ---
 
